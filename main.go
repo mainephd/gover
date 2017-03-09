@@ -13,9 +13,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/modocache/gover/gover"
 	"log"
 	"os"
+
+	"github.com/mainephd/gover/gover"
 )
 
 const (

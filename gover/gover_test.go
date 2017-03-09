@@ -1,14 +1,15 @@
 package gover_test
 
 import (
-	. "github.com/modocache/gover/gover"
+	. "github.com/mainephd/gover/gover"
 
 	"fmt"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
 	"io/ioutil"
 	"os"
 	"path/filepath"
+
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 func fixturesDir() string {
